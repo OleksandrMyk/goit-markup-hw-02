@@ -1,3 +1,84 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/* header section */
+
+.header {
+}
+
+.header-list {
+}
+
+.mail {
+    color: #2196f3;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+}
+
+.tel {
+}
+
+/* navigation section */
+
+.navigation {
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.navigation-list {
+    width: 294px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+}
+
+.navigation-item {
+    width: 49px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+}
+
+.navigation-link {
+}
+
+/* hero section */
+
+.hero {
+}
+
+.title {
+}
+
+.title-btn {
+}
+
+/* about section */
+
+.about {
+}
+
+.about-list {
+}
+
+.about-item {
+}
+
+.about-title {
+}
+
+.about-after-title {
+}
