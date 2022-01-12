@@ -1,5 +1,26 @@
+:root {
+    --accent-color: #2196f3;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.list {
+    list-style: none;
 }
 
 /* header section */
@@ -7,23 +28,21 @@ body {
 .header {
 }
 
-.header-list {
+.header-item {
+    text-decoration: none;
 }
 
-.mail {
-    color: #2196f3;
-    width: 135px;
-    height: 16px;
-    left: 1078px;
-    top: 32px;
-}
-
-.tel {
-    color: #757575;
+.header-item-mail-tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-item-mail-tel:hover,
+.header-item-mail-tel:focus {
+    color: var(--accent-color);
 }
 
 /* navigation section */
@@ -36,11 +55,19 @@ body {
 }
 
 .logo {
-    font-family: Raleway;
-    font-style: normal;
+    font-family: 'Raleway' sans-serif;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
+    color: #2196f3;
+}
+
+.logo-header {
+    color: #000000;
+}
+
+.logo-footer {
+    color: #ffffff;
 }
 
 .navigation-list {
@@ -57,23 +84,49 @@ body {
     top: 32px;
 }
 
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--accent-color);
+}
+
 .navigation-link {
+    color: #212121;
 }
 
 /* hero section */
 
 .hero {
-    color: #2f303a;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2f303a;
 }
 
 .title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
 .title-btn {
+    font-family: inherit;
     width: 200px;
     height: 50px;
     left: 700px;
     top: 430px;
+    background: #2196f3;
+}
+
+.title-btn:hover,
+.title-btn:focus {
+    color: var(--accent-color);
 }
 
 /* about section */
@@ -88,7 +141,41 @@ body {
 }
 
 .about-title {
+    color: #212121;
 }
 
 .about-after-title {
+    color: #757575;
+}
+
+/* --- footer-section --- */
+
+.footer-section {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2f303a;
+}
+
+.footer-link {
+}
+
+.footer-item {
+}
+
+.footer-map {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.footer-item-mail-tel {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
