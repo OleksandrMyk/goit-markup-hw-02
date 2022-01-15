@@ -26,6 +26,7 @@ body {
 /* header section */
 
 .header {
+    background: cadetblue;
 }
 
 .header-item {
@@ -96,16 +97,11 @@ body {
 /* hero section */
 
 .hero {
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
+    text-align: center;
     background: #2f303a;
 }
 
 .title {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -115,12 +111,17 @@ body {
     color: #ffffff;
 }
 
-.title-btn {
+.hero-btn {
     font-family: inherit;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
     background: #2196f3;
 }
 
@@ -132,29 +133,87 @@ body {
 /* about section */
 
 .about {
+    background-color: brown;
 }
 
 .about-list {
+    text-align: center;
 }
 
 .about-item {
 }
 
 .about-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
     color: #212121;
 }
 
 .about-after-title {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* --- work-section --- */
+
+.work-section {
+}
+.work-title {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.work-list {
+    text-align: center;
+}
+
+/* --- personal-section --- */
+
+.personal {
+    background-color: cadetblue;
+}
+
+.personal-title {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.personal-list {
+    text-align: center;
+}
+
+.personal-section-item {
+}
+
+.personal-title-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.personal-after-title {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #757575;
 }
 
 /* --- footer-section --- */
 
 .footer-section {
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2097px;
     background: #2f303a;
 }
 
@@ -178,4 +237,9 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* --- menu-section 2 stor --- */
+
+.menu-section {
 }
