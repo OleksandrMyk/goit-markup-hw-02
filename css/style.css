@@ -74,14 +74,6 @@ body {
 .navigation-item {
 }
 
-.navigation-link:hover,
-.navigation-link:focus {
-    color: var(--accent-color);
-}
-.navigation-link:active {
-    color: var(--accent-color);
-}
-
 .navigation-link {
     text-decoration: none;
     font-weight: 500;
@@ -89,6 +81,12 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
+}
+
+.navigation-link:hover,
+.navigation-link:focus,
+.navigation-link:active {
+    color: var(--accent-color);
 }
 
 /* hero section */
